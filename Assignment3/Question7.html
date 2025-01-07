@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Timetable</title>
+</head>
+<body>
+    <h1>Conference Timetable</h1>
+    <table border="1" cellspacing="0" cellpadding="4">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Room A</th>
+                <th>Room B</th>
+                <th>Room C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09:00 - 10:00</td>
+                <td title="Keynote by Dr. Smith: The Future of AI" style="background-color: lightblue;">Keynote</td>
+                <td colspan="2" title="Workshop: Hands-on with Python ML by Prof. Jane">Python ML Workshop</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:30</td>
+                <td rowspan="2" title="Panel Discussion: Ethics in Tech with various speakers" style="background-color: lightgreen;">Panel Discussion</td>
+                <td title="Session by Dr. Brown: Blockchain Fundamentals" style="background-color: lightyellow;">Blockchain</td>
+                <td title="Session by Dr. Emily: Quantum Computing Basics" style="background-color: lightpink;">Quantum Computing</td>
+            </tr>
+            <tr>
+                <td>11:30 - 12:30</td>
+                <td colspan="2" title="Workshop: Web Development with React by John Doe">React Workshop</td>
+            </tr>
+            <tr>
+                <td>12:30 - 13:30</td>
+                <td colspan="3" style="background-color: lightgray;" title="Lunch Break">Lunch Break</td>
+            </tr>
+            <tr>
+                <td>13:30 - 14:30</td>
+                <td title="Session by Dr. Alice: Cloud Computing Strategies" style="background-color: lightyellow;">Cloud Computing</td>
+                <td rowspan="2" colspan="2" title="Hackathon: Build Your Own AI Assistant">Hackathon</td>
+            </tr>
+            <tr>
+                <td>14:30 - 15:30</td>
+                <td title="Session by Dr. Mark: Cybersecurity Threats" style="background-color: lightpink;">Cybersecurity</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Legend</h2>
+    <ul>
+        <li><span style="background-color: lightblue;">&nbsp;&nbsp;&nbsp;&nbsp;</span> Keynote</li>
+        <li><span style="background-color: lightgreen;">&nbsp;&nbsp;&nbsp;&nbsp;</span> Panel Discussion</li>
+        <li><span style="background-color: lightyellow;">&nbsp;&nbsp;&nbsp;&nbsp;</span> Technical Session</li>
+        <li><span style="background-color: lightpink;">&nbsp;&nbsp;&nbsp;&nbsp;</span> Workshop</li>
+        <li><span style="background-color: lightgray;">&nbsp;&nbsp;&nbsp;&nbsp;</span> Lunch Break</li>
+    </ul>
+</body>
+</html>
